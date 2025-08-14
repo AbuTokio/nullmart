@@ -7,6 +7,41 @@
     <title>Vite + TS</title>
   </head>
   <body>
-    <script type="module" src="/src/main.ts"></script>
+    <header>
+      <h1><span>null</span>Mart</h1>
+      <section class="filter-section">
+        <article class="search-sort-article">
+          <input type="text" name="search-input" id="search-input" placeholder="Search nullMart" />
+          <select name="select-input" id="sort-input">
+            <option value="" disabled selected hidden>Sort by</option>
+            <option value="price-lowest-to-highest">Price ↑</option>
+            <option value="price-highest-to-lowest">Price ↓</option>
+            <option value="rating">Rating</option>
+          </select>
+        </article>
+        <article class="filter-article">
+          <p>Filter by Categories:</p>
+          <div class="filter-buttons-wrapper">
+            <!-- <button type="button" class="filter-button" id="electronics-button">Electronics</button>
+            <button type="button" class="filter-button" id="jewelery-button">Jewelery</button>
+            <button type="button" class="filter-button" id="mens-clothing-button">Men's Clothing</button>
+            <button type="button" class="filter-button" id="womens-clothing-button">Women's Clothing</button> -->
+          </div>
+        </article>
+      </section>
+    </header>
+    <main>
+      <section class="products-section">
+        <!-- <div class="product-card">
+          <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png" alt="product-image" />
+          <h2>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</h2>
+          <div class="price-cart-wrapper">
+            <p>$ 109.95</p>
+            <button type="button">Add to cart</button>
+          </div>
+        </div> -->
+      </section>
+    </main>
+    <script type="module" src="/src/assets/scripts/main.ts"></script>
   </body>
 </html>
